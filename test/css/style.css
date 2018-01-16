@@ -1,0 +1,50 @@
+/**
+ * Place your custom styles here.
+ */
+body, #navbar {
+  background-image: url('../images/pattern.png');
+  color: rgb(150, 255, 177);
+}
+#navbar a {
+  color: cyan;
+  font-size: 32px;
+  font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#navbar a:hover{
+  color: yellowgreen;
+}
+h1,h2,h3,h4,h5,h6,p {
+  color: aliceblue;
+}
+.navgreen {
+  width: 400px;
+  height: 80px;
+  -moz-border-radius: 55px;
+  -webkit-border-radius: 55px;
+  border: 2px solid #000000;
+  box-shadow: inset 0 0 0 2px #98CE00;
+  position: relative;
+  background: #70B200;
+  background: -moz-linear-gradient(top, #70B200 0%, #448000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#70B200), color-stop(100%,#448000));
+  background: -webkit-linear-gradient(top, #70B200 0%,#448000 100%);
+  background: -o-linear-gradient(top, #70B200 0%,#448000 100%);
+  background: -ms-linear-gradient(top, #70B200 0%,#448000 100%);
+  background: linear-gradient(to bottom, #70B200 0%,#448000 100%);
+  vertical-align: middle;
+  -moz-border-radius: 45px 45px 45px 45px;
+  border-radius: 45px 45px 45px 45px;
+}
+.style2 {
+  font-size: 32px;
+  color: #FFFFFF;
+  font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.navgreen:hover {
+  background: rgb(0, 183, 255);
+}
+a:hover {
+  text-decoration: none;
+}

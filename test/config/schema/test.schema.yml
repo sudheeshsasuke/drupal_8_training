@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the THEMETITLE theme.
+
+test.settings:
+  type: theme_settings
+  label: 'test theme settings'
