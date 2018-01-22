@@ -1,0 +1,29 @@
+# This routing.yml file makes both the fapi example description page and the
+# included sample forms available at specific URL's on your site. A route
+# maps a URL path to a controller. For page controllers it defines the
+# function or method that will be called when the page is accessed.  For form
+# controllers the content is determined by the buildForm method defined by the
+# form controller implementation.
+
+# Access to these paths is restricted to users with the permission
+# 'access content'. This is notated as _permission: 'access content'.
+
+# Menu items corresponding to these URLs are defined separately in the
+# form_api_example.links.menu.yml file.
+
+makequiz.makequiz_form:
+  path: 'quiz/makequiz'
+  defaults:
+    _form:  '\Drupal\makequiz\Form\MakequizForm'
+    _title: 'Make Quiz form'
+  requirements:
+    _permission: 'access content'
+
+
+form_api_example.multistep_form:
+  path: 'examples/form-api-example/multistep-form'
+  defaults:
+    _form: '\Drupal\form_api_example\Form\MultistepForm'
+    _title: 'Multistep form'
+  requirements:
+    _permission: 'access content'

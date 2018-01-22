@@ -1,0 +1,6 @@
+name: Make quiz
+type: module
+description: Form API for creating a quiz.
+package: Custom modules
+core: 8.x
+
